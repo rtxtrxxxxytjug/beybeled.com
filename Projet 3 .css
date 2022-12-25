@@ -1,0 +1,43 @@
+*{ padding: 0; margin: 0 ; font-family: sans-serif ; }
+
+.body { background: linear-gradient( #DFFC , #333 ) ;
+        height: 100vh; width: 100%; display: flex; justify-content: center; align-items: center;     
+    }
+
+.container{ width: 80%;height: 80%;background-color:darkorange; border-radius: 20px; overflow: hidden; }
+
+.nav{ display: flex; justify-content: space-between; align-items: center;margin: auto; width: 80%;padding: 20px 0 ;}
+
+.nav .Beybled{ color :white ; text-decoration: none; text-transform: uppercase; letter-spacing: 3px; font-weight: 800 ;font-size: 40px}
+
+.nav .ul .li{ display:inline-block ; margin: 0 6px ; }
+
+.nav .ul .li .a{ color: white; font-size: 20px ;text-decoration: none;}
+
+.nav .ul .li .a:hover{ color:chartreuse; border: 10px blue solid ;border-radius: 10px; background-color: black; }
+
+.content{display: flex; justify-content: space-between; align-items:center ;height: 100%;width: 80%;margin: auto; flex-direction: column; }
+
+.content .text{ color: lightskyblue;width: 30%;}
+
+.content .text .h3{ font-size: 34px ;color: blue;text-transform: uppercase;font-weight: 700;letter-spacing: 1px;display: inline-block;}
+
+.h3::selection{  color:green; background-color:honeydew; }
+
+.para {   font-size: 20px; line-height: 25px ;margin: 10px 0 ;letter-spacing: 1px;}
+
+.para::selection{  color: cyan; background-color: black; }
+
+.content .image{ width: 40%; }
+
+.content .image .img{ border-radius: 100px;height: 350px; width: 350px;margin-bottom: 390px;   }
+
+.content .image .img:hover{ border: 10px rgb(0, 179, 255) solid ;border-radius: 200px ;}
+
+.nav .Beybled:hover{ font-size: 45px ;border: 5px rgb(0, 255, 170) solid ;border-radius: 10px ;color:chartreuse; }
+
+
+
+
+@media ( min-width:950px) and ( max-width:1150px) {.content .image{ width: 200px; }}
+
